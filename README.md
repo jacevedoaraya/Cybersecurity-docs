@@ -7,6 +7,7 @@ Documentación y notas técnicas de ciberseguridad, disponibles en **español** 
 | Carpeta | Descripción |
 |---|---|
 | [`siem-wazuh/`](./siem-wazuh) | Configuración, uso y notas sobre Wazuh (SIEM) |
+| [`security-onion/`](./security-onion) | Personalización del entorno gráfico (GNOME) sobre Security Onion / Oracle Linux 9 |
 
 ## 🌐 Idiomas
 
