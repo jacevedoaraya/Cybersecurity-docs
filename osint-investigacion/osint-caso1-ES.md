@@ -154,18 +154,7 @@ Este ejercicio se realizó utilizando únicamente fuentes de información públi
 
 ---
 
-## 📁 Estructura sugerida para el repositorio en GitHub
 
-```
-osint-caso1-usuario-sospechoso/
-├── README.md              ← este documento
-├── evidencias/
-│   ├── sherlock-resultados.png
-│   ├── github-perfil.png
-│   ├── pgp-key-decode.png
-│   └── nitter-busqueda.png
-└── notas/
-    └── notas-adicionales.md
 ```
 
 > Recuerda anonimizar o difuminar cualquier dato sensible en las capturas antes de subirlas públicamente (correos reales, IPs, nombres, etc.), incluso si el usuario investigado es ficticio o parte de un laboratorio.
