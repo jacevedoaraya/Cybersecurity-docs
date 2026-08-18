@@ -8,6 +8,7 @@ Documentación y notas técnicas de ciberseguridad, disponibles en **español** 
 |---|---|
 | [`siem-wazuh/`](./siem-wazuh) | Configuración, uso y notas sobre Wazuh (SIEM) |
 | [`security-onion/`](./security-onion) | Personalización del entorno gráfico (GNOME) sobre Security Onion / Oracle Linux 9 |
+| [`pentest-misp/`](./pentest-misp) | Reporte de pentest CTF: explotación de infraestructura Docker + MISP |
 
 ## 🌐 Idiomas
 
