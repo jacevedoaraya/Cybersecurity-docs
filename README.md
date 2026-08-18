@@ -2,6 +2,10 @@
 
 Documentación y notas técnicas de ciberseguridad, disponibles en **español** e **inglés**.
 
+## 👋 Sobre mí 
+Aspirante a **SOC Analyst / Analista de Seguridad**, en formación activa en ciberseguridad defensiva y ofensiva. Este repositorio reúne la documentación técnica que voy generando en mis laboratorios:
+configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetración y análisis OSINT.
+
 ## 📂 Contenido
 
 | Carpeta | Descripción |
