@@ -14,6 +14,7 @@ configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetrac
 | [`security-onion/`](./security-onion) | Personalización del entorno gráfico (GNOME) y solución de firewall/pillar para enrolamiento de agentes |
 | [`pentest-misp/`](./pentest-misp) | Reporte de pentest CTF: explotación de infraestructura Docker + MISP |
 | [`osint-investigacion/`](./osint-investigacion) | Caso de investigación OSINT: identificación de usuario a partir de un username (datos anonimizados) |
+| [nessus/](nessus/) | Instalación y troubleshooting de Tenable Nessus (Essentials) en Windows |
 
 ## 🌐 Idiomas
 
