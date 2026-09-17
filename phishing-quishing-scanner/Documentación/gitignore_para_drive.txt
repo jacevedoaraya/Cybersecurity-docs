@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+samples/test_phish.png
+report.json
+report.html
+.DS_Store
