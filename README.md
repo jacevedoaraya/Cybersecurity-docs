@@ -10,6 +10,7 @@ configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetrac
 
 | Carpeta | Descripción |
 |---|---|
+| [`phishing-quishing-scanner/`](./phishing-quishing-scanner/) | Generador de dominios de Typosquatting/Homóglifos y escáner de Quishing (QR Phishing) en Python |
 | [`siem-wazuh/`](./siem-wazuh) | Configuración, uso y notas sobre Wazuh (SIEM) |
 | [`security-onion/`](./security-onion) | Personalización del entorno gráfico (GNOME) y solución de firewall/pillar para enrolamiento de agentes |
 | [`pentest-misp/`](./pentest-misp) | Reporte de pentest CTF: explotación de infraestructura Docker + MISP |
