@@ -20,6 +20,7 @@ Herramienta desarrollada en Python para Threat Intelligence y análisis defensiv
 
 ### 1. Auditoría de Typosquatting en Dominios
 ```bash
+1. Main.py
 python main.py -d google.com
 2. Generar Código QR de Prueba
 python main.py --gen-qr "[https://gmai.com](https://gmai.com)"
