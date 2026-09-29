@@ -10,6 +10,7 @@ configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetrac
 
 | Carpeta | Descripción |
 |---|---|
+| [`XSS-Web-for-Pentesters/`](./XSS-Web-for-Pentesters/) | Reporte de pentest de Cross-Site Scripting (XSS) sobre el laboratorio Web for Pentester (PentesterLab): payloads, análisis de filtros y contramedidas por cada ejemplo |
 | [`phishing-quishing-scanner/`](./phishing-quishing-scanner/) | Generador de dominios de Typosquatting/Homóglifos y escáner de Quishing (QR Phishing) en Python *(Disponible solo en español)* |
 | [`siem-wazuh/`](./siem-wazuh) | Configuración, uso y notas sobre Wazuh (SIEM) |
 | [`security-onion/`](./security-onion) | Personalización del entorno gráfico (GNOME) y solución de firewall/pillar para enrolamiento de agentes |
