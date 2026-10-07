@@ -10,6 +10,7 @@ configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetrac
 
 | Carpeta | Descripción |
 |---|---|
+| [`sonarqube-sast-lab/`](sonarqube-sast-lab/) | Laboratorio SAST: despliegue de SonarQube Community con Docker Compose y análisis estático de OWASP WebGoat (529 issues, 8 vulnerabilidades). Guía bilingüe ES/EN |
 | [sql-injection-lab/](sql-injection-lab/) | Reporte de pentest de inyección SQL (SQLi) sobre el laboratorio Web for Pentester (PentesterLab): 9 ejemplos con payloads, bypass de filtros, UNION-based injection y extracción de credenciales |
 | [`XSS-Web-for-Pentesters/`](./XSS-Web-for-Pentesters/) | Reporte de pentest de Cross-Site Scripting (XSS) sobre el laboratorio Web for Pentester (PentesterLab): payloads, análisis de filtros y contramedidas por cada ejemplo |
 | [`phishing-quishing-scanner/`](./phishing-quishing-scanner/) | Generador de dominios de Typosquatting/Homóglifos y escáner de Quishing (QR Phishing) en Python *(Disponible solo en español)* |
