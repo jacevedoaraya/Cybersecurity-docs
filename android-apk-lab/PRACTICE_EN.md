@@ -293,4 +293,4 @@ android-apk-lab/
 
 - Practice app: [OWASP MASTG Crackmes](https://github.com/OWASP/mastg)
 - Tools: [Apktool](https://github.com/iBotPeaches/Apktool) · [jadx](https://github.com/skylot/jadx) · [dex2jar](https://github.com/pxb1988/dex2jar) · [JD-GUI](https://github.com/java-decompiler/jd-gui) · [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
-- The script and guides were prepared with AI assistance (Claude). The commands were run and verified by the author, and the conclusions are the author's own.
+
