@@ -10,6 +10,7 @@ configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetrac
 
 | Carpeta | Descripción |
 |---|---|
+| [osint-monitoring-pipeline](osint-monitoring-pipeline/) | Pipeline de monitoreo OSINT con Docker: convierte canales de Telegram en feeds (RSS-Bridge), reúne fuentes de inteligencia en FreshRSS y envía alertas al celular (changedetection.io + ntfy) cuando aparecen nuevas víctimas de ransomware en Costa Rica. |
 |[**`android-apk-lab/`**](./android-apk-lab/) |Laboratorio de análisis estático de apps Android con apktool, jadx, dex2jar, JD-GUI y MobSF sobre UnCrackable-Level1 (OWASP). Incluye reto de descifrado en Python y comparación entre revisión manual y automática (MobSF 55/100). Guía para principiantes en español e inglés. |
 | [`sonarqube-sast-lab/`](sonarqube-sast-lab/) | Laboratorio SAST: despliegue de SonarQube Community con Docker Compose y análisis estático de OWASP WebGoat (529 issues, 8 vulnerabilidades). Guía bilingüe ES/EN |
 | [sql-injection-lab/](sql-injection-lab/) | Reporte de pentest de inyección SQL (SQLi) sobre el laboratorio Web for Pentester (PentesterLab): 9 ejemplos con payloads, bypass de filtros, UNION-based injection y extracción de credenciales |
