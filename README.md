@@ -10,6 +10,7 @@ configuración y uso de SIEM (Wazuh), hardening de sistemas, pruebas de penetrac
 
 | Carpeta | Descripción |
 |---|---|
+| [pki-autofirmado](pki-autofirmado/) | Laboratorio de PKI con OpenSSL en Kali Linux (CompTIA Security+ SY0-701): creación de un par de claves RSA y una CSR, certificado autofirmado y verificación contra las raíces de confianza del sistema (error 18 y prueba con `-CAfile`). Guía en [Español](pki-autofirmado/README.md) e [English](pki-autofirmado/README.en.md). |
 | [robin-osint-setup](robin-osint-setup/) | Instalación de Robin (OSINT con IA para la dark web) con Docker y Tor, usando Gemini u Ollama local, más un lanzador de escritorio. Guía en [Español](robin-osint-setup/README.es.md) e [English](robin-osint-setup/README.md). |
 | [osint-monitoring-pipeline](osint-monitoring-pipeline/) | Pipeline de monitoreo OSINT con Docker: convierte canales de Telegram en feeds (RSS-Bridge), reúne fuentes de inteligencia en FreshRSS y envía alertas al celular (changedetection.io + ntfy) cuando aparecen nuevas víctimas de ransomware en Costa Rica. |
 |[**`android-apk-lab/`**](./android-apk-lab/) |Laboratorio de análisis estático de apps Android con apktool, jadx, dex2jar, JD-GUI y MobSF sobre UnCrackable-Level1 (OWASP). Incluye reto de descifrado en Python y comparación entre revisión manual y automática (MobSF 55/100). Guía para principiantes en español e inglés. |
