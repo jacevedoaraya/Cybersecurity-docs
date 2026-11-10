@@ -88,3 +88,51 @@ de 1503 bytes para probar que llega completo.
 - La longitud se mide en bytes, no en letras: en UTF-8, "canción" tiene
   7 letras pero ocupa 8 bytes.
 
+
+## Etapa 3: Chat con varios clientes simultáneos
+
+En la Etapa 2, el servidor atendía a un solo cliente a la vez. Si se
+conectaba un segundo cliente, quedaba esperando en la cola de `listen()`
+hasta que el primero se desconectaba.
+
+Lo resolví con hilos. Cada vez que un cliente se conecta, el servidor
+crea un hilo dedicado a conversar con él, como un restaurante que
+contrata un mesero nuevo para cada mesa. El programa principal se queda
+en la puerta haciendo `accept()` para recibir al siguiente cliente.
+
+La función `difundir` recorre la lista de clientes conectados y le
+reenvía a todos cada mensaje que llega, junto con los avisos de quién
+entra y quién sale. Por eso ahora todos ven lo que escribe cada uno.
+
+Al conectar el cliente de la Etapa 2 al servidor nuevo, el cliente
+quedó desfasado: mostraba la respuesta anterior en vez de la actual.
+Además, mientras esperaba en `input()`, no podía mostrar los mensajes
+de los demás. Por eso el cliente también necesitó un hilo: uno atiende
+el teclado y otro solo escucha lo que llega del servidor.
+
+### Cómo ejecutarlo
+
+En una terminal, el servidor:
+
+    cd etapa3_chat
+    python3 servidor.py
+
+En otras terminales, varios clientes al mismo tiempo:
+
+    cd etapa3_chat
+    python3 cliente.py
+
+### Lo que aprendí
+
+- Un hilo permite que un programa haga varias cosas a la vez. El
+  servidor usa un hilo por cliente, y el cliente usa uno para escribir
+  y otro para escuchar.
+- Una condición de carrera ocurre cuando varios hilos modifican el
+  mismo dato al mismo tiempo, como la lista de clientes. El `Lock`
+  (candado) la evita: solo el hilo que lo tiene puede tocar la lista,
+  y los demás esperan su turno.
+- El cliente viejo quedó desfasado porque leía una respuesta por cada
+  mensaje enviado, pero el servidor nuevo enviaba más mensajes de los
+  que recibía (avisos de entrada y mensajes de otros clientes).
+- `daemon=True` hace que los hilos se cierren junto con el programa
+  principal. Sin esto, el programa quedaría colgado al salir.
