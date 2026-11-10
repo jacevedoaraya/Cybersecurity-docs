@@ -88,6 +88,3 @@ de 1503 bytes para probar que llega completo.
 - La longitud se mide en bytes, no en letras: en UTF-8, "canción" tiene
   7 letras pero ocupa 8 bytes.
 
-## Próximas etapas
-
-- Etapa 3: chat con varios clientes simultáneos
